@@ -1,0 +1,146 @@
+:root {
+  color-scheme: light dark;
+  --surface: #ffffff;
+  --text: #1f1f1f;
+  --muted: #5f6368;
+  --line: #dadce0;
+  --accent: #1a73e8;
+  --danger: #d93025;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface: #1f1f1f;
+    --text: #e8eaed;
+    --muted: #9aa0a6;
+    --line: #3c4043;
+    --accent: #8ab4f8;
+    --danger: #f28b82;
+  }
+}
+
+body {
+  width: 340px;
+  margin: 0;
+  padding: 14px;
+  background: var(--surface);
+  color: var(--text);
+  font: 13px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-size: 14px;
+}
+
+h2 {
+  margin: 0 0 6px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.live {
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 12px;
+}
+
+.status {
+  margin: 0 0 6px;
+  font-weight: 600;
+}
+
+.status.recording::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background: var(--danger);
+}
+
+.hint,
+.meta {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.hint.error {
+  color: var(--danger);
+}
+
+.preview {
+  margin: 0 0 10px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--text) 6%, transparent);
+  font-style: italic;
+  max-height: 54px;
+  overflow: hidden;
+}
+
+button {
+  font: inherit;
+  padding: 5px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: var(--accent);
+}
+
+button.primary {
+  width: 100%;
+  padding: 8px;
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+button.danger:hover {
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.title {
+  margin: 0 0 2px;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.actions {
+  display: flex;
+  gap: 6px;
+}
+
+select {
+  font: inherit;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text);
+}

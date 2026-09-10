@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <h1 data-i18n="extensionName"></h1>
+    </header>
+
+    <section class="live">
+      <p id="status" class="status"></p>
+      <p id="hint" class="hint" hidden></p>
+      <p id="preview" class="preview" hidden></p>
+      <button id="toggle" type="button" class="primary" hidden></button>
+    </section>
+
+    <section class="library">
+      <h2 data-i18n="savedTranscripts"></h2>
+      <p id="empty" class="hint" data-i18n="noTranscripts" hidden></p>
+      <ul id="transcripts"></ul>
+    </section>
+
+    <template id="transcript-item">
+      <li>
+        <p class="title"></p>
+        <p class="meta"></p>
+        <div class="actions">
+          <select class="format" aria-label="format"></select>
+          <button type="button" class="copy" data-i18n="copy"></button>
+          <button type="button" class="download" data-i18n="download"></button>
+          <button type="button" class="delete danger" data-i18n="delete"></button>
+        </div>
+      </li>
+    </template>
+
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
