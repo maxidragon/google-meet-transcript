@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+
+# Packaged builds, regenerated from source
+*.zip
+*.crx
+# Extension signing key — never commit
+*.pem
