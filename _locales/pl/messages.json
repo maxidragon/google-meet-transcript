@@ -1,0 +1,37 @@
+{
+  "extensionName": { "message": "Transkrypcja Meet" },
+  "extensionDescription": {
+    "message": "Zamienia napisy na żywo z Google Meet w transkrypcję do skopiowania lub pobrania. Działa ze spotkaniami po polsku i po angielsku."
+  },
+  "statusNotMeeting": { "message": "Otwórz spotkanie w Google Meet, aby nagrać transkrypcję." },
+  "statusNeedsReload": { "message": "Odśwież kartę Meet, aby dokończyć instalację rozszerzenia." },
+  "statusIdle": { "message": "Nie nagrywam." },
+  "statusRecording": {
+    "message": "Nagrywam · $count$ linii",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "captionsOff": { "message": "Napisy w Meet są wyłączone. Start nagrywania włączy je automatycznie." },
+  "captionsNotFound": {
+    "message": "Nie znaleziono przycisku napisów w Meet. Włącz napisy ręcznie, a potem zacznij nagrywać."
+  },
+  "captionLanguageHint": {
+    "message": "Język transkrypcji zależy od języka napisów w Meet (Ustawienia → Napisy)."
+  },
+  "start": { "message": "Zacznij nagrywać" },
+  "stop": { "message": "Zatrzymaj nagrywanie" },
+  "saveFailed": {
+    "message": "Nie udało się zapisać: $reason$",
+    "placeholders": { "reason": { "content": "$1" } }
+  },
+  "savedTranscripts": { "message": "Zapisane transkrypcje" },
+  "noTranscripts": { "message": "Brak transkrypcji." },
+  "lineCount": {
+    "message": "$count$ linii",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "copy": { "message": "Kopiuj" },
+  "copied": { "message": "Skopiowano" },
+  "download": { "message": "Pobierz" },
+  "delete": { "message": "Usuń" },
+  "confirmDelete": { "message": "Usunąć tę transkrypcję na zawsze?" }
+}

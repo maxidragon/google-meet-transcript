@@ -1,0 +1,35 @@
+{
+  "extensionName": { "message": "Meet Transcript" },
+  "extensionDescription": {
+    "message": "Turns Google Meet's live captions into a transcript you can copy or download. Works with Polish and English meetings."
+  },
+  "statusNotMeeting": { "message": "Open a Google Meet meeting to record a transcript." },
+  "statusNeedsReload": { "message": "Reload the Meet tab to finish setting up the extension." },
+  "statusIdle": { "message": "Not recording." },
+  "statusRecording": {
+    "message": "Recording · $count$ lines",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "captionsOff": { "message": "Meet's captions are off. Starting the recording switches them on." },
+  "captionsNotFound": { "message": "Meet's captions button was not found. Switch captions on in Meet, then start." },
+  "captionLanguageHint": {
+    "message": "The transcript language follows Meet's caption language (Settings → Captions)."
+  },
+  "start": { "message": "Start recording" },
+  "stop": { "message": "Stop recording" },
+  "saveFailed": {
+    "message": "Could not save: $reason$",
+    "placeholders": { "reason": { "content": "$1" } }
+  },
+  "savedTranscripts": { "message": "Saved transcripts" },
+  "noTranscripts": { "message": "No transcripts yet." },
+  "lineCount": {
+    "message": "$count$ lines",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "copy": { "message": "Copy" },
+  "copied": { "message": "Copied" },
+  "download": { "message": "Download" },
+  "delete": { "message": "Delete" },
+  "confirmDelete": { "message": "Delete this transcript permanently?" }
+}
