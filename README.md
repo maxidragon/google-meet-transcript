@@ -76,3 +76,9 @@ npm test
 The tests cover the parts that are hard to get right and easy to break: folding caption
 snapshots into utterances, detecting the language, and rendering the export formats. Reading
 Meet's DOM is verified by hand against a real meeting.
+
+The icons are generated rather than drawn, so their colour lives in one place:
+
+```sh
+npm run icons
+```

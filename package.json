@@ -5,6 +5,7 @@
   "type": "module",
   "description": "Chrome extension that turns Google Meet live captions into a transcript",
   "scripts": {
-    "test": "node --test \"test/**/*.test.js\""
+    "test": "node --test \"test/**/*.test.js\"",
+    "icons": "node tools/make-icons.mjs"
   }
 }

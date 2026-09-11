@@ -19,7 +19,7 @@ const LANGUAGE_SAMPLE_LENGTH = 600;
 const PREVIEW_LENGTH = 120;
 const RECORDING_KEY_PREFIX = "recording:";
 const RECORDING_BADGE = "REC";
-const RECORDING_COLOUR = "#d93025";
+const RECORDING_COLOUR = "#dc2626";
 
 /**
  * @typedef {{

@@ -4,8 +4,8 @@
   --text: #1f1f1f;
   --muted: #5f6368;
   --line: #dadce0;
-  --accent: #1a73e8;
-  --danger: #d93025;
+  --accent: #6d28d9;
+  --danger: #dc2626;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,8 +14,8 @@
     --text: #e8eaed;
     --muted: #9aa0a6;
     --line: #3c4043;
-    --accent: #8ab4f8;
-    --danger: #f28b82;
+    --accent: #a78bfa;
+    --danger: #f87171;
   }
 }
 
