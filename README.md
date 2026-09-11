@@ -1,4 +1,4 @@
-# Meet Transcript
+# Google Meet Transcript
 
 A Chrome extension that turns Google Meet's own live captions into a transcript you can read,
 copy or download. Polish and English meetings both work.
