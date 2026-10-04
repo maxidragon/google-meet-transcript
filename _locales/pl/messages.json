@@ -1,5 +1,5 @@
 {
-  "extensionName": { "message": "Transkrypcja Meet" },
+  "extensionName": { "message": "Transkrypcja Google Meet" },
   "extensionDescription": {
     "message": "Zamienia napisy na żywo z Google Meet w transkrypcję do skopiowania lub pobrania. Działa ze spotkaniami po polsku i po angielsku."
   },

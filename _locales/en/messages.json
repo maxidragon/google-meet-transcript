@@ -1,5 +1,5 @@
 {
-  "extensionName": { "message": "Meet Transcript" },
+  "extensionName": { "message": "Google Meet Transcript" },
   "extensionDescription": {
     "message": "Turns Google Meet's live captions into a transcript you can copy or download. Works with Polish and English meetings."
   },

@@ -1,10 +1,11 @@
-# Meet Transcript
+# Google Meet Transcript
 
 A Chrome extension that turns Google Meet's own live captions into a transcript you can read,
 copy or download. Polish and English meetings both work.
 
 Nothing is recorded and nothing is uploaded: the extension reads the caption text Meet already
-draws on the page, and keeps the result in the browser's local storage.
+draws on the page, and keeps the result in the browser's local storage. It makes no network
+requests at all — see [PRIVACY.md](PRIVACY.md).
 
 ## Requirements
 
@@ -65,7 +66,8 @@ some text inside a polite live region — which has outlived several Meet redesi
 - Transcripts share Chrome's 10 MB local storage quota — roughly a hundred hour-long meetings.
   The popup says so if a save fails; delete old transcripts to free space.
 
-Recording other people, even as text, is theirs to know about. Tell the meeting.
+Recording other people, even as text, is theirs to know about. Tell the meeting — in the EU
+that is not just manners, it is the GDPR, and you are the controller of whatever you record.
 
 ## Development
 
@@ -76,3 +78,14 @@ npm test
 The tests cover the parts that are hard to get right and easy to break: folding caption
 snapshots into utterances, detecting the language, and rendering the export formats. Reading
 Meet's DOM is verified by hand against a real meeting.
+
+The icons are generated rather than drawn, so their colour lives in one place:
+
+```sh
+npm run icons
+```
+
+## Trademarks
+
+Google Meet is a trademark of Google LLC. This is an independent project, not affiliated with,
+endorsed by or sponsored by Google.
